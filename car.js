@@ -12,5 +12,6 @@ const Car = function (make, price, engineType){
     this.setEngineType = (engineType)=> _engineType = engineType;
 }
 
-const car1 = new Car("Toyota", 10000, "Petrol")
+const car1 = new Car
 
+module.exports = {Car};
