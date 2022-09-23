@@ -26,9 +26,16 @@ const dealer1 = new Dealership("North", 100,);
 const testcar = new Car("Toyota", 10000, "Petrol");
 dealer1.addToStock(testcar);
 
-const 
+//finding by manufacturer
+const findByMake = stock.filter(stock => Car.getMake());
+
+//find total value 
+const totalValue = stock.reduce((reducer, Car.getPrice()) => {
+    return reducer + Car.getPrice();
+}, 0);
 
 console.log(dealer1.getStock().map((Car) => Car.getMake()));
 console.log(stockCount);
+console.log(findByMake);
 
 
